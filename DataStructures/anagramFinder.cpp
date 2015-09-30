@@ -28,12 +28,11 @@ int main()
 		}
 		else
 		{
-			for (int j = i + 1; j< stringWithDuplicates.length() - 1; j++)
+			for (int j = i + 1; stringWithDuplicates[j]; j++)
 			{
 				stringWithDuplicates[j] = stringWithDuplicates[j + 1];
 			}
 		}
-	}
 
-  cout << stringWithDuplicates << endl;
+	}
 }
