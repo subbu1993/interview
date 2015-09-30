@@ -6,7 +6,7 @@ Practice program that implements quick sort
 #include<cstdlib>
 
 using namespace std;
-
+void quickSort(int& numbers[10]);
 int main()
 {
   int numbers[10];
@@ -22,4 +22,9 @@ int main()
   {
     cout << numbers[i] << endl;
   }
+}
+
+void quickSort(int& numbers[10], int left, int right)
+{
+
 }
